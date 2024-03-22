@@ -45,7 +45,8 @@
         </ul>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <button class="btn bg-transparent text-primary fw-semibold">Login</button>
+            <button class="btn bg-transparent text-primary fw-semibold" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">Login</button>
             <button class="btn btn-primary fw-bold text-white">Register</button>
           </li>
         </ul>
@@ -57,7 +58,8 @@
 
 
   <!-- hero section starts here -->
-  <div class="container d-flex justify-content-center align-items-center h-75 w-100 flex-column rounded" id="hero_section">
+  <div class="container d-flex justify-content-center align-items-center h-75 w-100 flex-column rounded"
+    id="hero_section">
     <h1 class="display-2">Crafting <span class="bg-warning px-2 rounded text-white fw-lighter">Digital</span> Excellence
     </h1>
     <p class="text-capitalize">DigitalCraft Studios - A place to showcase your Creativity</p>
@@ -69,25 +71,69 @@
   <!-- hero section ends here -->
 
 
+
+
   <!-- about section start here -->
   <section class="about mx-5 h-75" id="about">
     <div class="row align-items-md-stretch">
       <div class="col-md-6">
         <div class="h-100 rounded-3">
-          <img src="https://source.unsplash.com/random/?art" alt="Image loading...." class="object-fit-cover w-100 rounded" style="height: 350px;">
+          <img src="https://source.unsplash.com/random/?art" alt="Image loading...."
+            class="object-fit-cover w-100 rounded" style="height: 350px;">
         </div>
       </div>
       <div class="col-md-6">
         <div class="h-100 p-5 border rounded-3">
-          <h1 class="text-center display-2 text-capitalize">About us</h1>
-        <p class="text-secondary">At DigitalCraft Studios, we specialize in creating innovative digital solutions that elevate brands to new
-          heights. With a team of passionate creatives and tech-savvy professionals, we craft unique experiences
-          tailored to meet your business needs. From web design and development to digital marketing strategies, we are
-          your one-stop destination for all things digital.</p>
+          <h1 class="text-center display-2 text-capitalize">About us.</h1>
+          <p class="text-secondary">At DigitalCraft Studios, we specialize in creating innovative digital solutions that
+            elevate brands to new
+            heights. With a team of passionate creatives and tech-savvy professionals, we craft unique experiences
+            tailored to meet your business needs. From web design and development to digital marketing strategies, we
+            are
+            your one-stop destination for all things digital.</p>
         </div>
       </div>
     </div>
   </section>
+  <!-- about section ends here -->
+
+  <!-- Login Modal start here--> <!--by default hidden show when login button press-->
+  <div class="container">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="card-body">
+              <form>
+                <div class="form-group mt-1">
+                  <label for="email">Email address</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                </div>
+                <div class="form-group mt-1">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control" id="password" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn btn-primary mt-2">LogIn</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Login Modal ends here-->
+
+
+
+
+
+
+
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
