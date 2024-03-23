@@ -49,7 +49,7 @@
             <li class="nav-item">
               <button class="btn bg-transparent text-primary fw-semibold" data-bs-toggle="modal"
                 data-bs-target="#exampleModal">Login</button>
-              <button class="btn btn-primary fw-bold text-white">Register</button>
+              <button class="btn btn-primary fw-bold text-white" data-bs-toggle="modal" data-bs-target="#registrationModal">Register</button>
             </li>
           </ul>
         </div>
@@ -266,6 +266,7 @@
                     <input type="password" class="form-control" id="password" placeholder="Password" required>
                   </div>
                   <button type="submit" class="btn btn-primary mt-2">LogIn</button>
+                  <button class="btn btn-primary mt-2 fw-bold text-white" data-bs-toggle="modal" data-bs-target="#registrationModal">Register</button>
                 </form>
               </div>
             </div>
@@ -275,6 +276,41 @@
     </div>
     <!-- Login Modal ends here-->
 
+    <!-- registration modal -->
+    <div class="modal fade" id="registrationModal" tabindex="-1" aria-labelledby="registrationModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-primary">
+            <h5 class="modal-title text-white" id="registrationModalLabel">Registration</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="fullName" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" required>
+              </div>
+              <div class="mb-3">
+                <label for="confirmPassword" class="form-label">Confirm Password</label>
+                <input type="password" class="form-control" id="confirmPassword" required>
+              </div>
+              <button type="submit" class="btn btn-primary">Register</button>
+              <button class="btn btn-primary bg-transparent text-primary fw-semibold" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">Login</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- registration modal -->
 
 
 
