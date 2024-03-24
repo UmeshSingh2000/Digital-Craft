@@ -42,7 +42,7 @@ git clone https://github.com/UmeshSingh2000/Digital-Craft.git
 <p>2. Navigate to the project directory:</p>
 
 ```
-cd yourrepository
+cd Digital-Craft
 ```
 
 <p>3. cd yourrepository Open the project in your code editor:</p>
