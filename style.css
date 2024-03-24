@@ -66,3 +66,8 @@ body {
       filter: grayscale(0) brightness(1);
     }
   }
+
+  .socials svg{
+    cursor: pointer;
+    color: black;
+  }
