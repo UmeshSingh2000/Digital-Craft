@@ -51,11 +51,7 @@ cd Digital-Craft
 code .
 ```
 
-<h2>🍰 Contribution Guidelines:</h2>
 
-Fork the repository: Fork the repository to your GitHub account. Clone the repository:git clone https://github.com/yourusername/yourrepository.git Create a new branch:git checkout -b feature/new-feature Make changes: Make your desired changes to the codebase. Commit your changes:git commit -am 'Add new feature' Push to the branch:git push origin feature/new-feature
-
-  
   
 <h2>💻 Built with</h2>
 
