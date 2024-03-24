@@ -36,7 +36,7 @@ Here're some of the project's best features:
 <p>1. Clone the repository:</p>
 
 ```
-git clone https://github.com/yourusername/yourrepository.git
+git clone https://github.com/UmeshSingh2000/Digital-Craft.git
 ```
 
 <p>2. Navigate to the project directory:</p>
