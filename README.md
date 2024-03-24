@@ -8,7 +8,12 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://umeshsingh2000.github.io/Digital-Craft/" alt="project-screenshot" width="400" height="400/">
+![testimonial](https://github.com/UmeshSingh2000/Digital-Craft/assets/164480488/012037cb-cc7a-43ed-84a0-8d2970f35f41)
+![mobileView2](https://github.com/UmeshSingh2000/Digital-Craft/assets/164480488/9315acea-feb2-4a20-9d9d-f982a84bd9c8)
+![gallery](https://github.com/UmeshSingh2000/Digital-Craft/assets/164480488/ae65aa7f-fe3d-4b1c-95eb-11e40d259d21)
+![login](https://github.com/UmeshSingh2000/Digital-Craft/assets/164480488/9fd5f269-41cb-495c-9122-aeca568d0596)
+![mainpage](https://github.com/UmeshSingh2000/Digital-Craft/assets/164480488/eb966c50-faf8-47d1-936d-bc347e1600d4)
+![mobileView](https://github.com/UmeshSingh2000/Digital-Craft/assets/164480488/c60babdd-e1b8-4047-803f-ac7226ef8845)
 
   
   
